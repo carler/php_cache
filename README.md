@@ -7,7 +7,7 @@ composer php cache
 
 书写composer.json,内容如下:<br/>
 {<br/>
-    "require":{<br/>
+     "require":{<br/>       
         "carler/php_cache":"dev-master",<br/>
         "php" : ">5.3.0"<br/>
     },<br/>
