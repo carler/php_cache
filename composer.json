@@ -13,6 +13,8 @@
 	"php" :  ">5.3.0"
     },
     "authload":{
-	"CarlerCache\\":"src/CarlerCache"
+	"psr-4":{
+	    "CarlerCache\\":"src/CarlerCache"
+    	}
     }
 }
