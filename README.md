@@ -5,9 +5,9 @@ composer php cache
 
 ##1.下载
 
-书写composer.json,内容如下:       
-{       
-     "require":{      
+书写composer.json,内容如下:       
+>>{       
+>>>>    "require":{      
           "carler/php_cache":"dev-master",          
           "php" : ">5.3.0"      
      },         
