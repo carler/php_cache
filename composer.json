@@ -1,0 +1,18 @@
+{
+    "name": "carler/php_cache",
+    "description": "cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carler",
+            "email": "578047313@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php" :  ">5.3.0"
+    },
+    "authload":{
+	"CarlerCache":"src/CarlerCache/"
+    }
+}
