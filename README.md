@@ -1,11 +1,11 @@
 # php_cache
 composer php cache
 
-使用方法:
+#使用方法:
 
-1.下载
+##1.下载
 
-书写composer.json,内容如下:
+书写composer.json,内容如下:<br/>
 {
     "require":{
         "carler/php_cache":"dev-master",
@@ -14,9 +14,9 @@ composer php cache
     "minimum-stability":"dev"
 }
 
-2.然后执行composer install
+##2.然后执行composer install
 
-3.调用Carler\CCache($param,$cache_type)
+##3.调用Carler\CCache($param,$cache_type)
 
 例子：
 <?php
