@@ -8,11 +8,11 @@ composer php cache
 书写composer.json,内容如下:       
 {       
      "require":{      
-        "carler/php_cache":"dev-master",<br/>
-        "php" : ">5.3.0"<br/>
-    },<br/>
-    "minimum-stability":"dev"<br/>
-}<br/>
+          "carler/php_cache":"dev-master",          
+          "php" : ">5.3.0"      
+     },         
+     "minimum-stability":"dev"      
+}         
 
 ##2.然后执行composer install
 
