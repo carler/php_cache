@@ -16,7 +16,7 @@ composer php cache
 
 ##2.然后执行composer install</br>
 
-##3.调用Carler\CCache($param,$cache_type)</br>
+##3.CarlerCache\CCache($param,$cache_type)</br>
 
 例子：                 </br>
 <?php               </br>
@@ -75,6 +75,6 @@ $cache = new CCache($config['ssdb'], 'ssdb');           </br>
 
 ###然后调用方式：              </br>      
 $cache->get($key);  //获取key值           </br>                          
-$cache->set($key, $val, $ttl);; //设置key 的value值 ttl是有效期 时间为秒，默认600s            </br>
+$cache->set($key, $val, $ttl);; //设置key 的value值 ttl是有效期 时间为秒，默认360s            </br>
 $cache->delete($key) ; //删除key值                  </br>
 
